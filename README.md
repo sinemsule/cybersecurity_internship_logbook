@@ -17,4 +17,4 @@ Staj boyunca öğrendiklerimi, günlük çalışmalarımı ve projemi bu repoda 
 | Hafta | Konu | Durum |
 |---|---|---|
 | 1 | Kurulum ve temel kavramlar | Devam ediyor |
-| 2 | Linux temelleri | - |
+| 2 | Linux temelleri | Devam ediyor |
