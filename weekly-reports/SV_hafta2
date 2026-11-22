@@ -1,0 +1,36 @@
+16 Kasım-22 Kasım
+
+Tamamladığım eğitimler
+1. Ağ Temelleri
+2. Web Temelleri
+3. LLM Güvenliği Temelleri
+4. OSINT ile Bilgi Toplama
+5. Kriptoloji Temelleri
+
+Laboratuvarlar
+1. Hex Encoding
+2. URL Encoding
+3. ASCII
+4. Base64
+5. Base32
+6. Binary
+7. SHA1
+8. MD5
+
+Bu hafta sekiz laboratuvarı tamamladım. İlk geçişte daha çok okuyarak ilerledim. İlk okuyuşta anlamadım ama derste de gördüğüm konular olduğu için biraz hatırlıyordum. Şu an konuları kendi cümlelerimle şöyle özetleyebilirim.
+
+1. Hex Encoding: Verinin 16’lık sayı sistemiyle nasıl gösterildiğine baktım. Mesela büyük A harfinin ASCII değeri 65, bunun hex karşılığı ise 41. Başta 41 bana bambaşka bir sayı gibi geliyordu. 4 × 16 + 1 diye hesaplayınca neden 65 ettiğini görmek daha kolay.
+
+2. URL Encoding: Bir bağlantıda gördüğüm %20 ifadesinin nereden geldiğini öğrendim. Örneğin dosyanın adı ders notu.pdf ise bağlantıda ders%20notu.pdf şeklinde görebiliyorum. Burada %20 boşluğu gösteriyor.
+
+3. ASCII: Harflerin ve bazı sembollerin bilgisayarda bir sayı karşılığı olduğunu öğrendim. Örneğin büyük A harfi 65, küçük a harfi 97. Burada aklımda kalan şey, aynı harfi büyük ya da küçük yazmamın değerini değiştirmesi oldu.
+
+4. Base64: Bir veriyi metin olarak göstermek için Base64 kullanabildiğimi öğrendim. Örneğin A harfi QQ== şeklinde yazılıyor. Bunu geri çözdüğümde tekrar A elde edebiliyorum. Yani çıktıyı ilk bakışta okuyamamam, içeriğin gizli olduğu anlamına gelmiyor.
+
+5. Base32: Base32’nin de veriyi metin olarak göstermeye yaradığını gördüm. Base64 ile farkını aynı örnek üzerinden hatırlayabilirim. A harfi Base64’te QQ==, Base32’de IE====== oluyor. İkisini de kendi yöntemleriyle geri çözünce aynı harfe ulaşıyorum.
+
+6. Binary: Sayıların yalnızca 0 ve 1 ile nasıl yazıldığını inceledim. Mesela 65, sekiz bit kullanıldığında 01000001 oluyor. Bunu ASCII ve hex ile birleştirince bağlantıyı daha rahat kurabiliyorum. ASCII tablosunda A harfine karşılık gelen 65 sayısını hex ile 41, binary ile 01000001 şeklinde gösterebiliyorum.
+
+7. SHA1: Bir metinden hash adı verilen bir özet değeri üretildiğini öğrendim. Örneğin Merhaba kelimesinin ilk harfini küçültüp merhaba yazdığımda farklı bir özet çıkıyor. Bu özeti Base64 gibi geri çözüp ilk metni elde edemiyorum.
+
+8. MD5: MD5’in de bir veriden özet ürettiğini gördüm. SHA1 ile arasındaki farklardan biri çıktı uzunluğu. Hex olarak yazıldığında MD5 özeti 32, SHA1 özeti 40 karakter oluyor. İki dosyanın MD5 değerleri farklıysa içeriklerinin de farklı olduğunu söyleyebiliyorum.
